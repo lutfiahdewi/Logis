@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Logis</string>
+    <string name="selamat_datang">Selamat datang,</string>
+    <string name="username">LOGIStician!</string>
+    <string name="schedule">Schedule</string>
+    <string name="account">Account</string>
+    <string name="home">Home</string>
+</resources>
