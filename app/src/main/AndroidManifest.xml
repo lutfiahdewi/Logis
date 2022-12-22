@@ -6,12 +6,68 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/train"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/train"
         android:supportsRtl="true"
         android:theme="@style/Theme.Logis"
         tools:targetApi="31">
+        <activity
+            android:name=".editSchedule"
+            android:parentActivityName=".Schedule">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Schedule" />
+        </activity>
+        <activity
+            android:name=".addSchedule"
+            android:parentActivityName=".Schedule">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Schedule" />
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:parentActivityName=".Account">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Account" />
+        </activity>
+        <activity
+            android:name=".Profil"
+            android:parentActivityName=".Account">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Account" />
+        </activity>
+        <activity
+            android:name=".SignIn"
+            android:parentActivityName=".Account">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Account" />
+        </activity>
+        <activity
+            android:name=".Register"
+            android:parentActivityName=".Account">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Account" />
+        </activity>
+        <activity
+            android:name=".Account"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Schedule"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -3,6 +3,25 @@
     <string name="selamat_datang">Selamat datang,</string>
     <string name="username">LOGIStician!</string>
     <string name="schedule">Schedule</string>
+    <string name="scheduleTitle">Daftar Jadwal Keberangkatan dan Tujuan Kereta</string>
     <string name="account">Account</string>
     <string name="home">Home</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="about_us_title">-About Us-</string>
+    <string name="about_us_subtitle">Logis merupakan projek buatan mahasiswa STIS bernama Lutfiah Kumala Dewi dari 3SI1.Logis berfungsi untuk mengumpulkan perubahan jadwal dari berbagai pihak (crowdsource). Penambahan dan penghapusan jadwal hanya bisa dilakukan oleh admin.</string>
+    <string name="about_us_title2">LOGIS</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="title_password">Password :</string>
+    <string name="title_email">Email :</string>
+    <string name="title_sign_in">Sign In</string>
+    <string name="train">Train</string>
+    <string name="tombol_add">Tombol add</string>
 </resources>
